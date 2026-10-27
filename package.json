@@ -1,0 +1,31 @@
+{
+  "name": "expiring-token-readiness",
+  "version": "0.1.0",
+  "description": "Check a Shopify app's readiness for expiring offline access tokens (required for public apps from 1 January 2027). Reads locally, never prints a token.",
+  "type": "module",
+  "bin": {
+    "etr": "bin/etr.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "shopify",
+    "oauth",
+    "offline-access-token",
+    "expiring-tokens",
+    "app-security"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/persephonepunch/expiring-token-readiness.git"
+  }
+}
